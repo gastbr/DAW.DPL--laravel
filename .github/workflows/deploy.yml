@@ -11,7 +11,7 @@ jobs:
     - name: Deploy
     uses: appleboy/ssh-action@v0.1.8
     with:
-      host: 185.254.207.144
+      host: 200.234.227.69
       port: 2222
       username: gaston
       key: ${{secrets.PRIVATE_KEY}}
