@@ -8,7 +8,7 @@ jobs:
   name: Deploy to VPS
   runs-on: ubuntu-22.04
   steps:
-    - name: Deploy
+  - name: Deploy
     uses: appleboy/ssh-action@v0.1.8
     with:
       host: 200.234.227.69
